@@ -1,0 +1,72 @@
+Worked -
+
+1.librarian- 
+a. add new Book - get book name from user check if available in list or in issued map 
+b. See the availble Books - show all the avail books that can be issued
+c. Issue book - 
+I. get book name from user - check that book is avail in books
+II. get student id from user - check that student is avail in record
+III. map these values in issuedBooks and remove that book from books list
+d. get all issued books - checks and prints all records from map
+e.Receive Book - get book name from user and check if present in map if yes remove and add thet book to books shelf
+f.can receive the library diposit of students - 
+I. get amount form user 
+II. get student id from user - check that student with id is present and check if he has previously paid deposit if yes add new amount to old amount
+g. view all diposits- checks and print all the data related to diposit map
+
+
+2. Teacher -
+a. can add new students
+b. can add new books
+c. can check avail books
+d. can check enrolled students
+e. can see received deposit of students (all)
+
+
+3. student -
+a.can see all available books
+b. can see all the students pending deposit out of 5000
+c. can see all enrolled students
+
+
+
+Planned-
+
+0. Library - 
+a. books 
+b. students account records
+c. library deposit records
+d. 
+
+
+1.librarian- 
+a. add new Book - get book name from user check if available in list or in issued map 
+b. See the availble Books - show all the avail books that can be issued
+c. Issue book - 
+c. can add new student
+d. can issue and receive the book
+e.can receive deposit
+
+2. Teacher -
+a. can add new students
+b. can add new books
+c. can receive the library diposit of students
+d. can check avail books
+e. can see received deposit of students (all)
+f. can see received deposit of students (with id)
+
+
+
+3. student -
+a. can see all the students deposit
+b. can see all available books 
+c. 
+
+
+
+issued- book(name)-list, 
+
+receive- book(name)+list,curent time, 
+
+
+studnet- can see list of books available
