@@ -8,5 +8,5 @@ create login for particular 	- done
 student can pay diposit 		- done
 book search option 				- done
 see number of studnet			- done
-my issued books 				- 
-view my paid diposite 			-
+my issued books 				- done
+view my paid diposite 			- done

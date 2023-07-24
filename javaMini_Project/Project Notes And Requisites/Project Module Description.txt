@@ -26,9 +26,10 @@ Worked -
 3. student -[Requires to login]
 	a. can see all available books
 	b. book search option 
-	
-	c. can see all enrolled students
-
+	c. can see numeber of enrolled students
+	d.see number of studnet			
+	e.my issued books 				
+	f.view my paid diposite 	
 
 4. Rgistration module-
 	a.new Librarian can register - duplicate and password validations are done here.
