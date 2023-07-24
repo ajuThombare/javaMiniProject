@@ -1,0 +1,37 @@
+CREATE TABLE userpassword (
+    id int NOT NULL AUTO_INCREMENT,
+    username varchar(255) NOT NULL,
+    password varchar(255),
+    type varchar(20),
+    PRIMARY KEY (id)
+);
+
+ALTER TABLE library_db.userpassword AUTO_INCREMENT=1;
+
+
+---------------------------------------------------------------------------------------------------------
+worked query -
+
+SELECT * FROM library_db.userpassword;
+
+SELECT * FROM library_db.userpassword where username = 'Rocky_6' and type ='student';
+delete from library_db.userpassword where username = 'Rocky_6' and type ='student';
+
+UPDATE `library_db`.`userpassword` SET `password` = 'Test@123' WHERE (`username` = 'Rocky_6');
+
+
+SELECT * FROM library_db.userpassword where username = 'Librarian2' and type ='librarian';
+
+SELECT * FROM `library_db`.`userpassword` where username = 'Librarian1' and type = 'librarian' and password= 'Test@123';
+
+INSERT INTO `library_db`.`userpassword` ( `username`, `password`, `type`) VALUES ( 'Teacher2', 'Test@123', 'teacher');
+
+SELECT * FROM library_db.userpassword;
+
+delete from library_db.userpassword where id = 4;
+
+INSERT INTO `library_db`.`userpassword` ( `username`, `password`) VALUES ('jkj', 'jkj');
+
+INSERT INTO `library_db`.`userpassword` ( `username`, `password`, `type`) VALUES ( 't', 'y', 'h');
+
+-------------------------------------------------------------------------------------------------------
