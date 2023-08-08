@@ -198,7 +198,7 @@ public class Library {
 
 	public Connection getConnection() throws Exception {
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		if (con == null) {
+		if (con == null || con.isClosed()) {
 			con = DriverManager.getConnection("jdbc:mysql://localhost:3306/library_db", "root", "root");
 		}
 		return con;

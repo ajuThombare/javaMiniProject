@@ -1,12 +1,12 @@
 
 24/07/2023
-* create register  -add option to register librarian - done
-* create login to student and teacher and librarian - done
-* librarian module -while issuing the book check his diposit ammount is received - done
-* student module- 
-create login for particular 	- done
-student can pay diposit 		- done
-book search option 				- done
-see number of studnet			- done
-my issued books 				- done
-view my paid diposite 			- done
+* create register  -add option to register librarian 								 - done
+* create login to student and teacher and librarian 								 - done
+* librarian module -while issuing the book check his diposit ammount is received	 - done
+* student module changes- 
+	create login for particular 	- done
+	student can pay diposit 		- done
+	add book search option 			- done
+	see number of enrolled studnet	- done
+	my issued books 				- done
+	view my paid diposite 			- done
